@@ -17,7 +17,7 @@ export default function LocationSection() {
                 <p>959 E Main St,</p>
                 <p>Auburn, WA</p>
                 <p>98002</p>
-                <a href='https://goo.gl/maps/AUeYP3G84jtQm97k7' target='_blank'>Get Directions</a>
+                <a className='directions-btn' href='https://goo.gl/maps/AUeYP3G84jtQm97k7' target='_blank'>Get Directions</a>
             </div>
         </div>
     )

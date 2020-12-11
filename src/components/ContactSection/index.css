@@ -19,6 +19,15 @@
     margin-top: 50px;
 }
 
+.contact-submit-btn {
+    border: none;
+    color: white;
+    background: linear-gradient(-180deg,rgb(255 166 185 / 99%),rgb(230 1 52 / 99%) 49%,#c20726);
+    padding: 9px 15px;
+    border-radius: 25px;
+    width: 95px;
+}
+
 .contact-text-container {
     width: 50%;
     padding: 2%;
