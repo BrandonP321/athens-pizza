@@ -1,0 +1,63 @@
+[
+    {
+        "group": "Pasta",
+        "image": "assets/images/pasta.jpg",
+        "food": [
+            {
+                "name": "Fettucini Alferedo",
+                "description": "Ribbon style pasta sautéed in garlic butter, rich creamy with Parmesan, topped with parsley"
+            },
+            {
+                "name": "Fettucini Louie",
+                "description": "Ribbon style pasta sautéed with zucchini and boneless chicken in our rich creamy Alfredo sauce"
+            },
+            {
+                "name": "Mediterranean Chicken",
+                "description": "Sautéed boneless chicken with vegetables, topped with our meat sauce fettuccine noodles with Alfredo sauce"
+            }
+        ]
+    },
+    {
+        "group": "Salads",
+        "image": "assets/images/salad.jpg",
+        "food": [
+            {
+                "name": "Chef's Salad",
+                "description": "Tossed greens with ham, cheese, tomatoes, salami, mushrooms, onions, green peppers, black olives"
+            },
+            {
+                "name": "Village Salad",
+                "description": "Tomatoes, cucumbers, green peppers, onions olives tossed in Greek dressing and topped with feta cheese"
+            },
+            {
+                "name": "Greek Salad",
+                "description": "Iceberg lettuce, tomatoes, cucumbers, green peppers, onions, Kalamata olives (may contain pits) in our special Greek style dressing and topped with feta cheese"
+            },
+            {
+                "name": "Chicken Caesar Salad",
+                "description": "Romaine lettuce, strips of grilled chicken, croutons, Parmesan cheese & a delicious caesar dressing"
+            },
+            {
+                "name": "Caesar Salad",
+                "description": "Romaine lettuce, croutons, Parmesan cheese and Caesar dressing",
+                "extra": "Add Shrimp extra $$"
+            },
+            {
+                "name": "Beef or Chicken Gyro Greek Salad",
+                "description": "Greek salad topped with strips of Beef or Chicken Gyro meat"
+            },
+            {
+                "name": "Shrimp Salad",
+                "description": "Iceberg lettuce, fresh shrimp, and tomatoes"
+            },
+            {
+                "name": "Side Gren Salad (No Bread)",
+                "description": "Iceberg lettuce, shredded cabbage, carrots and topped with our delicious croutons"
+            },
+            {
+                "name": "MineStrone Soup, House Salad, & Garlic Bread Combo",
+                "description": ""
+            }
+        ]
+    }
+]
