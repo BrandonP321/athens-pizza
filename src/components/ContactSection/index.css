@@ -26,6 +26,11 @@
     padding: 9px 15px;
     border-radius: 25px;
     width: 95px;
+    transition: transform .5s;
+}
+
+.contact-submit-btn:hover {
+    transform: scale(1.05);
 }
 
 .contact-text-container {
@@ -52,10 +57,12 @@
     height: 40px;
     text-align: center;
     padding-top: 3px;
+    transition: transform .5s;
 }
 
 .social-link:hover {
     color: white;
+    transform: scale(1.1);
 }
 
 .social-link > i {
