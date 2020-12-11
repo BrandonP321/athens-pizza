@@ -11,14 +11,17 @@ export default function MenuCollapsable(props) {
     console.log(props)
     return (
         <div className='menu-group'>
-            <div 
-                className={open ? 'menu-collapse-header show-collapse': 'menu-collapse-header'}
+            <div
+                className={open ? 'menu-collapse-header show-collapse' : 'menu-collapse-header'}
                 onClick={() => setOpen(!open)}
                 aria-expanded={open}
             >
                 <img src={props.img} />
+                <div className='menu-header-img-dark-overlay'></div>
                 <div className='menu-header-overlay'>
-                    <h2>{props.group}</h2>
+                    <div className='menu-header-text'>
+                        <h2>{props.group}</h2>
+                    </div>
                 </div>
             </div>
             <Collapse in={open}>
