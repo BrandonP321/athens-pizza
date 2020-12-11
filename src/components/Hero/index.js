@@ -5,11 +5,12 @@ export default function Hero() {
 
     return (
         <div className='hero-container'>
-            <img className='hero-img' src='https://via.placeholder.com/1920x1080' />
+            <img className='hero-img' src='assets/images/hero1.jpg' />
+            <div className='hero-overlay'></div>
             <div className='hero-text-container'>
                 <h1>Athens Pizza & Pasta</h1>
                 <p>Home of the Grinder</p>
-                <button>Menu</button>
+                <a href='/menu'>Menu</a>
             </div>
         </div>
     )
