@@ -1,0 +1,6 @@
+.content {
+    /* maintain width of 1450px until screen is smaller, then 95% of vw */
+    max-width: 1450px;
+    width: 95%;
+    margin: 0 auto;
+}

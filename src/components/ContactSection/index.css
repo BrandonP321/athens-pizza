@@ -1,0 +1,114 @@
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form > .form-group {
+    width: 100%;
+}
+
+.contact-form-container {
+    width: 50%;
+    min-width: 580px;
+}
+
+.contact-section-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+
+.contact-submit-btn {
+    border: none;
+    color: white;
+    background: linear-gradient(-180deg,rgb(255 166 185 / 99%),rgb(230 1 52 / 99%) 49%,#c20726);
+    padding: 9px 15px;
+    border-radius: 25px;
+    width: 95px;
+    transition: transform .5s;
+}
+
+.contact-submit-btn:hover {
+    transform: scale(1.05);
+}
+
+.contact-text-container {
+    width: 50%;
+    padding: 2%;
+}
+
+.contact-form > .name-form-group, .contact-form > .email-form-group {
+    width: 48%;
+}
+
+.mobile-socials {
+    display: none;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.social-link {
+    color: white;
+    background: linear-gradient(-180deg,rgb(255 166 185 / 99%),rgb(230 1 52 / 99%) 49%,#c20726);
+    font-size: 1.4rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 3px;
+    transition: transform .5s;
+}
+
+.social-link:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.social-link > i {
+    color: inherit;
+}
+
+.socials-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-section-container {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .contact-form-btns {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contact-form-container, .contact-text-container {
+        width: 100%;
+        padding: 0;
+        min-width: auto;
+    }
+
+    .contact-text-container {
+        text-align: center;
+    }
+
+    .mobile-socials {
+        display: flex;
+    }
+
+    .socials-flex {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contact-form > .name-form-group, .contact-form > .email-form-group {
+        width: 100%;
+    }
+}

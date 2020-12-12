@@ -1,0 +1,355 @@
+[
+    {
+        "group": "Pasta",
+        "image": "assets/images/pasta.jpg",
+        "food": [
+            {
+                "name": "Fettucini Alferedo",
+                "description": "Ribbon style pasta sautéed in garlic butter, rich creamy with Parmesan, topped with parsley"
+            },
+            {
+                "name": "Fettucini Louie",
+                "description": "Ribbon style pasta sautéed with zucchini and boneless chicken in our rich creamy Alfredo sauce"
+            },
+            {
+                "name": "Mediterranean Chicken",
+                "description": "Sautéed boneless chicken with vegetables, topped with our meat sauce fettuccine noodles with Alfredo sauce"
+            }
+        ]
+    },
+    {
+        "group": "Salads",
+        "image": "assets/images/salad.jpg",
+        "food": [
+            {
+                "name": "Chef's Salad",
+                "description": "Tossed greens with ham, cheese, tomatoes, salami, mushrooms, onions, green peppers, black olives"
+            },
+            {
+                "name": "Village Salad",
+                "description": "Tomatoes, cucumbers, green peppers, onions olives tossed in Greek dressing and topped with feta cheese"
+            },
+            {
+                "name": "Greek Salad",
+                "description": "Iceberg lettuce, tomatoes, cucumbers, green peppers, onions, Kalamata olives (may contain pits) in our special Greek style dressing and topped with feta cheese"
+            },
+            {
+                "name": "Chicken Caesar Salad",
+                "description": "Romaine lettuce, strips of grilled chicken, croutons, Parmesan cheese & a delicious caesar dressing"
+            },
+            {
+                "name": "Caesar Salad",
+                "description": "Romaine lettuce, croutons, Parmesan cheese and Caesar dressing",
+                "extra": "Add Shrimp extra $$"
+            },
+            {
+                "name": "Beef or Chicken Gyro Greek Salad",
+                "description": "Greek salad topped with strips of Beef or Chicken Gyro meat"
+            },
+            {
+                "name": "Shrimp Salad",
+                "description": "Iceberg lettuce, fresh shrimp, and tomatoes"
+            },
+            {
+                "name": "Side Gren Salad (No Bread)",
+                "description": "Iceberg lettuce, shredded cabbage, carrots and topped with our delicious croutons"
+            },
+            {
+                "name": "MineStrone Soup, House Salad, & Garlic Bread Combo",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group": "Hot Oven Grinders",
+        "image": "./assets/images/grinder1.jpg",
+        "food": [
+            {
+                "name": "Ham",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Canadian Style Bacon",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Roast Beef",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Pepperoni",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Turkey",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Salami",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Cold Cut",
+                "description": "(served hot) Canadian Ham & Salami Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Pastrami",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese & Seasoning"
+            },
+            {
+                "name": "Vegetarian",
+                "description": "With Mayonnaise, Lettuce, Provolone Cheese, Onions Peppers, Black Olives, Tomatoes, Mushrooms & Seasoning"
+            },
+            {
+                "name": "Meatball",
+                "description": "With Meat Sauce and Provolone Cheese"
+            },
+            {
+                "name": "BBQ Chicken",
+                "description": "BBQ sauce, Chicken Provolone Cheese & Seasoning"
+            }
+        ]
+    },
+    {
+        "group": "Other Sandwiches",
+        "image": "./assets/images/sandwich.jpg",
+        "food": [
+            {
+                "name": "Clubhouse Sandwich",
+                "description": "Triple decker of ham, bacon, cheese, Canadian bacon, lettuce, tomato & mayonnaise on grilled white bread"
+            },
+            {
+                "name": "BLT",
+                "description": "Bacon, lettuce, tomato & mayonnaise on grilled white bread"
+            },
+            {
+                "name": "Ham and Cheese Sandwich",
+                "description": "Ham, cheese & mayonnaise on grilled white bread"
+            },
+            {
+                "name": "Grilled Cheese Sandwich",
+                "description": "Melted provolone cheese on grilled white bread"
+            },
+            {
+                "name": "BCT",
+                "description": "Bacon, cheese, tomato & mayonnaise on grilled white bread"
+            },
+            {
+                "name": "Half Hot Oven Grinder Special",
+                "description": "Choice of ham, Canadian Bacon, Pepperoni, Turkey, Vegetarian, Meatball, Roast Beef, Cold Cut, Pastrami, BBQ Chicken or Salami"
+            }
+        ]
+    },
+    {
+        "group": "Italian Dishes",
+        "image": "./assets/images/italian.jpg",
+        "food": [
+            {
+                "name": "Spaghetti",
+                "description": "With meat sauce or marinara OR with meatballs or mushrooms"
+            },
+            {
+                "name": "Baked Spaghetti",
+                "description": "Spaghetti topped with cheese with meat sauce baked in the oven",
+                "extra": "Add meatballs or mushromms extra $$"
+            },
+            {
+                "name": "Baked Lasagna",
+                "description": "With meat sauce or marinara OR with meatballs or mushrooms"
+            },
+            {
+                "name": "Baked Ravioli",
+                "description": "Pasta stuffed with served our meat sauce and topped with blended cheeses",
+                "extra": "With meat sauce or marinara OR with meatballs or mushrooms"
+            },
+            {
+                "name": "Baked Half Chicken and Lasagna",
+                "description": "Fresh Washington chicken on top of our delicious lasagna in meat sauce & topped with cheese"
+            },
+            {
+                "name": "Baked Spare Ribs and Lasagna",
+                "description": "Choice pork spareribs on top of our delicious lasagna in meat sauce & topped with cheese"
+            },
+            {
+                "name": "Cannelloni",
+                "description": "Tube shaped pasta, stuffed with beef & seasonings & served our meat sauce and topped with cheese"
+            },
+            {
+                "name": "Manicotti",
+                "description": "Tube shaped pasta stuffed with ricotta cheese, baked in our meat sauce (marinara on request) and topped with cheese"
+            },
+            {
+                "name": "Half Barbecued Chicken",
+                "description": "Half a bbq chicken spaghetti with meat sauce"
+            },
+            {
+                "name": "Barbecued Pork Spare Ribs",
+                "description": "Bbq pork spareribs spaghetti with meat sauce"
+            }
+        ]
+    },
+    {
+        "group": "Appetizers",
+        "image": "./assets/images/appetizer.jpg",
+        "food": [
+            {
+                "name": "Whole Cheese Bread",
+                "description": ""
+            },
+            {
+                "name": "1/2 Cheese Bread",
+                "description": ""
+            },
+            {
+                "name": "Whole Cheese Bread with Sauce",
+                "description": ""
+            },
+            {
+                "name": "1/2 Cheese Bread with Sauce",
+                "description": ""
+            },
+            {
+                "name": "Whole Garlic Bread",
+                "description": ""
+            },
+            {
+                "name": "1/2 Garlic Bread",
+                "description": ""
+            },
+            {
+                "name": "Whole Garlic Bread with Sauce",
+                "description": ""
+            },
+            {
+                "name": "1/2 Garlic Bread with Sauce",
+                "description": ""
+            },
+            {
+                "name": "Pita Bread with Sauce",
+                "description": ""
+            },
+            {
+                "name": "Side Spaghetti Sauce or Marinara",
+                "description": ""
+            },
+            {
+                "name": "Freshly Tossed Green Salad",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group": "Kid's Menu",
+        "image": "./assets/images/kids-menu.jpg",
+        "food": [
+            {
+                "name": "Half Spaghetti with Meat Sauce",
+                "description": ""
+            },
+            {
+                "name": "Half Spaghetti with Meatballs",
+                "description": ""
+            },
+            {
+                "name": "Half Ravioli with Meat Sauce",
+                "description": ""
+            },
+            {
+                "name": "Half Ravioli with Meatballs",
+                "description": ""
+            },
+            {
+                "name": "Grilled Cheese Sandwich",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group": "Dessert",
+        "image": "./assets/images/dessert.jpg",
+        "food": [
+            {
+                "name": "Greek Baklava",
+                "description": ""
+            },
+            {
+                "name": "Mud Pie",
+                "description": ""
+            },
+            {
+                "name": "Spumoni Ice Cream",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group": "Bottled Beer",
+        "image": "./assets/images/bottled-beer.jpg",
+        "food": [
+            {
+                "name": "Dark Amber Bock",
+                "description": ""
+            },
+            {
+                "name": "Mythos Greek Beer",
+                "description": ""
+            },
+            {
+                "name": "Modelo Especial",
+                "description": ""
+            },
+            {
+                "name": "Corona Extra",
+                "description": ""
+            },
+            {
+                "name": "Budweiser",
+                "description": ""
+            },
+            {
+                "name": "Bud Light Lime",
+                "description": ""
+            },
+            {
+                "name": "O'Doul's",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group": "Draft Beer",
+        "image": "./assets/images/draft-beer.jpg",
+        "food": [
+            {
+                "name": "Bud Light",
+                "description": ""
+            },
+            {
+                "name": "Elysian Men's Room",
+                "description": ""
+            },
+            {
+                "name": "Red Hook ESB",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group": "Dometic Wine",
+        "image": "./assets/images/wine.jpg",
+        "food": [
+            {
+                "name": "Merlot",
+                "description": ""
+            },
+            {
+                "name": "Chardonnay",
+                "description": ""
+            },
+            {
+                "name": "White Zinfandel",
+                "description": ""
+            }
+        ]
+    }
+]
