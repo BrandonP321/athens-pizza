@@ -1,0 +1,50 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding: 20px 20px;
+    z-index: 100;
+}
+
+header > a {
+    color: white;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: height .2s;
+    background-color: white;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-logo {
+    z-index: 50;
+    color: inherit;
+}
+
+.active-header {
+    box-shadow: 0 1px 20px 0px #0000004d;
+}
+
+.nav-flex {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    color: inherit;
+}
+
+.nav-item {
+    color: inherit;
+    z-index: 50;
+}
