@@ -15,7 +15,9 @@ export default function Menu() {
                     </div>
                 </div>
             </div>
-            {allFood.map(foodGroup => <MenuCollapsable group={foodGroup.group} img={foodGroup.image} food={foodGroup.food} />)}
+            <div className='menu-container'>
+                {allFood.map(foodGroup => <MenuCollapsable group={foodGroup.group} img={foodGroup.image} food={foodGroup.food} />)}
+            </div>
         </>
     )
 }

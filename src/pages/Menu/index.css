@@ -1,3 +1,7 @@
+.menu-container {
+    border-bottom: 1px solid #d6d6d6;
+}
+
 .menu-hero-container {
     overflow: hidden;
     position: relative;
