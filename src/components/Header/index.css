@@ -33,8 +33,58 @@ header > a {
     color: inherit;
 }
 
+/* active when user has scrolled atleast 100px from top */
 .active-header {
     box-shadow: 0 1px 20px 0px #0000004d;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    line-height: 4;
+    background-color: gray;
+    transition: left 1s;
+    z-index: 200;
+}
+
+.mobile-menu-exit-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu-icon:hover {
+    cursor: pointer;
+}
+
+.icon-btn-container {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    z-index: 50;
+    color: inherit;
+}
+
+.icon-btn-container:focus {
+    outline: none;
+}
+
+.mobile-menu-times {
+    color: white;
+}
+
+.mobile-nav-item {
+    color: white;
 }
 
 .nav-flex {
@@ -47,4 +97,19 @@ header > a {
 .nav-item {
     color: inherit;
     z-index: 50;
+}
+
+@media screen and (max-width: 800px) {
+    /* replace nav items with menu icon for mobile */
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .nav-flex {
+        flex-direction: row-reverse;
+    }
 }
