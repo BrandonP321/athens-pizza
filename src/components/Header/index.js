@@ -45,10 +45,10 @@ export default function Header() {
                 <button className='icon-btn-container mobile-menu-exit-btn' onClick={handleMobileMenuToggle}>
                     <i className="mobile-menu-times far fa-times"></i>
                 </button><br/>
-                <a className='mobile-nav-item' href='/menu'>Menu</a><br />
-                <a className='mobile-nav-item' href='/#about'>About Us</a><br />
-                <a className='mobile-nav-item' href='/#location'>Location</a><br />
-                <a className='mobile-nav-item' href='/#contact'>Contact</a><br />
+                <a className='mobile-nav-item' href='/menu' onClick={handleMobileMenuToggle}>Menu</a><br />
+                <a className='mobile-nav-item' href='/#about' onClick={handleMobileMenuToggle}>About Us</a><br />
+                <a className='mobile-nav-item' href='/#location' onClick={handleMobileMenuToggle}>Location</a><br />
+                <a className='mobile-nav-item' href='/#contact' onClick={handleMobileMenuToggle}>Contact</a><br />
             </div>
         </header>
     )
