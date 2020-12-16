@@ -4,6 +4,7 @@ import './index.css'
 export default function AboutUsSection() {
     return (
         <div className='about-section-container'>
+            <div className='about-anchor' id='about'></div>
             <h2>About Us</h2>
             <div className='about-flex'>
                 <p className='about-text'>

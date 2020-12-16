@@ -12,7 +12,7 @@ export default function Home() {
             <div className='content content-responsive'>
                 <AboutUsSection />
             </div>
-            <div className='home-img'>
+            <div className='home-img' style={{backgroundImage: 'url("./assets/images/restaurant1.jpg")'}}>
                 {/* <img src='https:/via.placeholder.com/1920x1080' /> */}
             </div>
             <div className='content content-responsive'>
