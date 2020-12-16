@@ -13,7 +13,7 @@ export default function Home() {
                 <AboutUsSection />
             </div>
             <div className='home-img'>
-                <img src='https:/via.placeholder.com/1920x1080' />
+                {/* <img src='https:/via.placeholder.com/1920x1080' /> */}
             </div>
             <div className='content content-responsive'>
                 <LocationSection />
