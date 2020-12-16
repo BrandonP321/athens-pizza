@@ -36,12 +36,12 @@ export default function Header() {
                     <a className='nav-item' href='/#about'>About Us</a>
                     <a className='nav-item' href='/#location'>Location</a>
                     <a className='nav-item' href='/#contact'>Contact</a>
-                    <button className='icon-btn-container' onClick={handleMobileMenuToggle}>
+                    <button className='icon-btn-container mobile-menu-btn' onClick={handleMobileMenuToggle}>
                         <i className="mobile-menu-icon fas fa-bars"></i>
                     </button>
                 </div>
             </div>
-            <div className='mobile-menu' style={showMobileMenu ? { left: 0 } : {}}>
+            <div className='mobile-menu bg-dark' style={showMobileMenu ? { left: 0 } : {}}>
                 <button className='icon-btn-container mobile-menu-exit-btn' onClick={handleMobileMenuToggle}>
                     <i className="mobile-menu-times far fa-times"></i>
                 </button><br/>

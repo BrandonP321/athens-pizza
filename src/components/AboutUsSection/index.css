@@ -28,6 +28,8 @@
     width: 28%;
 }
 
-/* .about-text, .about-img-container {
-    width: 48%;
-} */
+@media screen and (max-width: 900px) {
+    .about-img-container, .about-text {
+        width: 100%;
+    }
+}

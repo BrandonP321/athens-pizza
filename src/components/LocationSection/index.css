@@ -44,6 +44,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .directions-btn {
+        margin: 0 auto 10px auto;
+    }
+
     .location-map-container > iframe {
         height: 40vh;
     }
