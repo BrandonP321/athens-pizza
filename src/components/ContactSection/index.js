@@ -26,6 +26,7 @@ export default function ContactSection() {
 
     return (
         <div className='contact-section-container'>
+            <div className='contact-anchor' id='contact'></div>
             <div className='contact-text-container'>
                 <h2>Contact Us</h2>
                 <p>This is some text about contacting us!</p>

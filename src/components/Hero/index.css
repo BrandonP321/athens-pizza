@@ -23,9 +23,17 @@
 .hero-text-container {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 40%;
     text-align: center;
     color: white;
+}
+
+.hero-text-container > h1 {
+    font-size: 3rem;
+}
+
+.hero-text-container > p {
+    font-size: 1.5rem;
 }
 
 .hero-text-container > a {
@@ -43,4 +51,10 @@
 .hero-text-container > a:hover {
     transform: scale(1.1);
     text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+    .hero-text-container > h1 {
+        font-size: 2rem;
+    }
 }
