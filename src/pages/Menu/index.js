@@ -6,8 +6,18 @@ import './index.css'
 export default function Menu() {
     return (
         <>
-            <h1>Menu</h1>
-            {allFood.map(foodGroup => <MenuCollapsable group={foodGroup.group} img={foodGroup.image} food={foodGroup.food} />)}
+            <div className='menu-hero-container'>
+                <img className='menu-hero-img' src='assets/images/menu-hero.jpg' />
+                <div className='menu-hero-overlay'>
+                    <div className='menu-hero-text'>
+                        <h1>Our Menu</h1>
+                        <p>this is some text about our menu</p>
+                    </div>
+                </div>
+            </div>
+            <div className='menu-container'>
+                {allFood.map(foodGroup => <MenuCollapsable group={foodGroup.group} img={foodGroup.image} food={foodGroup.food} />)}
+            </div>
         </>
     )
 }
